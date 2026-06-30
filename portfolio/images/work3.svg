@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1d35"/>
+      <stop offset="100%" style="stop-color:#0d0f1e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c6aef"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Business card front -->
+  <rect x="80" y="120" width="300" height="175" rx="10" fill="#1e2140" stroke="#2a2d4a" stroke-width="1" transform="rotate(-5 230 207)"/>
+  <circle cx="160" cy="190" r="16" fill="none" stroke="url(#accent)" stroke-width="2" transform="rotate(-5 230 207)"/>
+  <rect x="130" y="230" width="120" height="6" rx="3" fill="#eef0f6" opacity="0.6" transform="rotate(-5 230 207)"/>
+  <rect x="130" y="245" width="80" height="4" rx="2" fill="#5c6078" opacity="0.4" transform="rotate(-5 230 207)"/>
+  <!-- Business card back -->
+  <rect x="420" y="100" width="300" height="175" rx="10" fill="url(#accent)" opacity="0.15" stroke="#7c6aef" stroke-width="1" transform="rotate(3 570 187)"/>
+  <circle cx="570" cy="187" r="40" fill="none" stroke="#a78bfa" stroke-width="2" opacity="0.5" transform="rotate(3 570 187)"/>
+  <!-- Letterhead -->
+  <rect x="160" y="320" width="220" height="240" rx="8" fill="#1e2140" stroke="#2a2d4a" stroke-width="1"/>
+  <circle cx="200" cy="355" r="10" fill="none" stroke="url(#accent)" stroke-width="1.5"/>
+  <rect x="185" y="385" width="160" height="4" rx="2" fill="#5c6078" opacity="0.3"/>
+  <rect x="185" y="397" width="140" height="4" rx="2" fill="#5c6078" opacity="0.25"/>
+  <rect x="185" y="409" width="155" height="4" rx="2" fill="#5c6078" opacity="0.2"/>
+  <rect x="185" y="421" width="120" height="4" rx="2" fill="#5c6078" opacity="0.2"/>
+  <!-- Envelope -->
+  <rect x="440" y="340" width="260" height="180" rx="8" fill="#1e2140" stroke="#2a2d4a" stroke-width="1" transform="rotate(2 570 430)"/>
+  <path d="M445 345 L570 430 L695 345" fill="none" stroke="#7c6aef" stroke-width="1.5" opacity="0.4" transform="rotate(2 570 430)"/>
+</svg>
